@@ -1,2 +1,69 @@
---Task 1
-SELECT * FROM emp
+--Task 1:Select all employees (names).
+SELECT
+id,
+name_emp
+FROM table_emp
+ORDER BY name_emp;
+
+--Task 2:Select all employees (names) in reverse alphabetical order.
+SELECT
+id,
+name_emp
+FROM table_emp
+ORDER BY name_emp DESC;
+
+--Task 3:Select only unique employee names. 
+SELECT
+id,
+name_emp
+FROM table_emp
+ORDER BY name_emp DISTINCT;
+
+--Task 4:Show the average salary of employees. 
+SELECT
+AVG(selery)
+FROM table_emp;
+
+--Task 5: 
+Show the total salary of employees.
+SELECT
+SUM(selery)
+FROM table_emp;
+
+--Task 6: Show numb er of employees.
+SELECT
+COUNT(*)
+FROM  table_emp;
+
+--Task 7: find only those employees whose names are repeated more than 2 times.
+SELECT
+id,
+name_emp
+FROM table_emp
+WHERE COUNT name_emp>2;
+
+--Task 8:Сhoose employees whose boss is john smith. 
+SELECT
+id,
+name_emp
+FROM table_emp
+WHERE status id_B IS NOT NULL(status john smith).
+GROUP BY id_name_B;
+
+--Task 9:find employees who do not have 
+SELECT
+id,
+name_emp
+FROM table_emp
+WHERE status id_name_B IS NULL;
+
+-- Task 10:Find employees who have a nonexistent boss.
+SELECT
+id,
+name_emp
+FROM table_emp
+
+
+
+
+
