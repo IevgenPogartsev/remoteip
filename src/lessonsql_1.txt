@@ -1,12 +1,10 @@
 --Task 1:Select all employees (names).
 --IP: ok, solvedalmost properly, I requested only names with no sorting. Please also use tab for columns and put : to new row
 --IP: I fixed comments
-SELECT
-    id,
-    name_emp
-FROM table_emp
-ORDER BY name_emp
-;
+SELECT   
+ id,
+ name_emp
+FROM table_emp;
 
 --Task 2:Select all employees (names) in reverse alphabetical order.
 --IP: good. solved. the same suggestions as in task 1
@@ -18,22 +16,21 @@ ORDER BY name_emp DESC;
 
 --Task 3:Select only unique employee names. 
 -- IP: no this is NOT CORRECT
-SELECT
+SELECT DISTINCT  
 id,
 name_emp
-FROM table_emp
-ORDER BY name_emp DISTINCT;
+FROM table_emp;
 
 --Task 4:Show the average salary of employees. 
 --IP: good. coreect. please fix grammar mistake only
 SELECT
-AVG(selery)
+AVG(salary)
 FROM table_emp;
 
 --Task 5: Show the total salary of employees.
 --IP: good. coreect. please fix grammar mistake only
 SELECT
-SUM(selery)
+SUM(salary)
 FROM table_emp;
 
 --Task 6: Show number of employees.
@@ -47,8 +44,10 @@ FROM  table_emp;
 SELECT
 id,
 name_emp
+COUNT
 FROM table_emp
-WHERE COUNT name_emp>2;
+WHERE GROUP BY name_emp
+HAVING COUNT>2 
 
 --Task 8:Сhoose employees whose boss is john smith. 
 --IP: not CORRECT. Use JOIN or proper sub-query
@@ -56,8 +55,7 @@ SELECT
 id,
 name_emp
 FROM table_emp
-WHERE status id_B IS NOT NULL(status john smith).
-GROUP BY id_name_B;
+INNER JOIN table_BOSS ON id_name_B;
 
 --Task 9: find employees who do not have boss
 --IP: yes, correct
