@@ -1,0 +1,16 @@
+All questions
+
+do we create new commit by cherry-pick
+what to do with commit during revert
+how to find such commits -- git reflog >> text.txt
+why add whole folder
+can we cherry-pick merge commits?
+
+
+
+for TI 
+	how to revert merge? (git revert -m 1 c1b1b3b4n4)
+	can we cherry-pick merge commits?
+	how to merge branch to branch?
+	why do we need rebase? what is weakplaces for this?
+	why we need stash? what is weakplaces for this?
