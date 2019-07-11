@@ -14,3 +14,7 @@ for TI
 	how to merge branch to branch?
 	why do we need rebase? what is weakplaces for this?
 	why we need stash? what is weakplaces for this?
+
+----
+
+only master

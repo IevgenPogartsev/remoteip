@@ -10,5 +10,7 @@ public class Main {
         System.out.println("M-6 remote");
         --this is new line which is not required
 
+added only in  Master
+
     }
 }
