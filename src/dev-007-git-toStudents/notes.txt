@@ -1,0 +1,5 @@
+
+
+https://habrahabr.ru/post/106912/
+
+Win cache: Control Panel -> Account Mgmt -> Credentials Mgmt

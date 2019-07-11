@@ -16,3 +16,7 @@ for TI
 	why we need stash? what is weakplaces for this?
 	Fixed code - only master
 	added to master during rebase
+
+Advanced
+    Interactive rebase
+    commit by hand
