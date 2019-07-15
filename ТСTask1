@@ -1,0 +1,18 @@
+Тest Case. 
+ID 1.
+P1 Hight.
+Name:Modify an existing file in the repository.
+Precondition:Program GitHub.
+Execution part:
+Steps and ER.
+Click on the link remoteip.
+Click on the a button Create new file.
+Enter the name your file in the field for the name of your file TCTask1.
+Click on the link Edit new file.
+Describe TCTask1,consisting of 13 items.
+Click on the button сommit new file.
+
+
+
+
+
