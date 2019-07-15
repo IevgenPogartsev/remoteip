@@ -1,0 +1,15 @@
+﻿Тest Case: TC 002. 
+	Summary: Modify an existing file in the repository remoteip and commit.
+	Priority: 		P1(High).
+	Precondition: 	User is logged in to "GitHub". File "TCTask1.txt" is created in SRC folder.
+	Execution part (steps):	
+		1. Click on the link "remoteip" 			->	Page "remoteip" opened. File "TCTask1.txt" is available.
+		2. Click on the file "TCTask1.txt"			->	File opened, is not empty
+		3. Click on the button "Edit this file"		->	Edit mode is enabled. User is able to edit content of file.
+		4. Add new information to file: "new text"	->	"New text" is added.
+		5. Check commit to Master option 			->	"Commit directly to the master branch" is enabled
+		6. Click on the button "Commit changes"		->	Button is clicked. Edit mode is disabled. User is able to see "New text" in the file.
+		7. Click on the "remoteip" link 			->	page reloaded. File "TCTask1.txt" is available.
+		8. Delete cache of browser (press Ctrl+R)	->	Cache deleted. Page reloaded. File "TCTask1.txt" is available.
+		9. Click on the file "TCTask1.txt"			->	File opened, user is able to see "New text" in the file.
+	Requirement: REQ-001.
