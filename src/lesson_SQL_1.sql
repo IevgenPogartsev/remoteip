@@ -1,10 +1,9 @@
---Task 1:Select all employees (names).
---IP: ok, solvedalmost properly, I requested only names with no sorting. Please also use tab for columns and put : to new row
---IP: I fixed comments
+--Task 1:Select all employees (names)
 SELECT   
- id,
- name_emp
-FROM table_emp;
+	id,
+	name_emp
+FROM table_emp
+;
 
 --Task 2:Select all employees (names) in reverse alphabetical order.
 --IP: good. solved. the same suggestions as in task 1
