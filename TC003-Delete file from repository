@@ -1,1 +1,14 @@
-Test Case:TC003
+Test Case:  TC 003.
+ID 003.
+Summary: Delete file from repository remoteip.
+Priority: P1(High).
+Precondition: Program GitHub.
+Execution part(steps):
+Click on the link remoteip -> Page remoteip opens.
+Click on the file TC 001 -> File TC 001 is not empty.  File TC 001 opened.
+Click on the button Delete this file -> File TC 001 deleted.
+Click on the link remoteip -> Page remoteip opens.
+Search for a file TC 001 on the main repository page remoteip ->The file is missing in the filetable in the repository remoteip.
+Requirement: REQ-001.
+ 
+                                                  T
