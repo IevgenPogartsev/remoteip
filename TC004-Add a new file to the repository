@@ -1,0 +1,9 @@
+Test Case:  TC 004.
+ID 004.
+Summary: Add a new file to the repository remoteip and commit.
+Priority: P1(High).
+Precondition: Program GitHub.
+Execution part(steps):
+Click on the link remoteip -> Page remoteip opened.
+Click on the button "Create a new file" -> New file opened.
+
