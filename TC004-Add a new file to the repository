@@ -4,6 +4,8 @@ Summary: Add a new file to the repository remoteip and commit.
 Priority: P1(High).
 Precondition: Program GitHub.
 Execution part(steps):
-Click on the link remoteip -> Page remoteip opened.
+Click on the link "remoteip" -> Page remoteip opened.
 Click on the button "Create a new file" -> New file opened.
-
+In the "Name your file" enter the name of the new file TC 004 -> Entered the name of the new file TC 004.
+Click on the button"Commit changes" -> New file TC 004 added to the remoteip and commit.
+Click on the link "remoteip" -> Page remoteip opened.New file TC 004 added to the remoteip.
