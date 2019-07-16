@@ -10,5 +10,3 @@ Click on the button Delete this file -> File TC 001 deleted.
 Click on the link remoteip -> Page remoteip opens.
 Search for a file TC 001 on the main repository page remoteip ->The file is missing in the filetable in the repository remoteip.
 Requirement: REQ-001.
- 
-                                                  T
